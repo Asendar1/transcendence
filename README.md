@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by hassende, <LOGIN-2>, <LOGIN-3>, <LOGIN-3>.
+*This project has been created as part of the 42 curriculum by hassende, drahwanj, <LOGIN-3>, <LOGIN-3>.
 <!-- TODO(team): replace every <LOGIN-N> with a real 42 intra login (and adjust the count to the roster) before evaluation. -->
 
 # HrmSystem
