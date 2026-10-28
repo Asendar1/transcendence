@@ -167,15 +167,6 @@ Points: **Major = 2, Minor = 1 — minimum required: 14.**
 > proven by integration tests against a real SQL Server container (Testcontainers). It is a
 > cross-cutting architectural guarantee enforced in four layers, not a single feature.
 
-## Individual Contributions
-
-- **ahirzallah** — Clean Architecture skeleton, domain model (Value Objects, Result pattern,
-  domain events), multi-tenancy enforcement pipeline, JWT/Identity auth, SignalR hubs.
-  Hardest problem: guaranteeing tenant isolation through *every* data path (EF, owned VOs,
-  Dapper) and proving it with tests instead of trusting conventions.
-- **<LOGIN-2>** — …
-- **<LOGIN-3>** — …
-
 ## Resources
 
 - Subject: ft_transcendence (v21.1) — module map kept in `docs/ft_transcendence-modules-and-points.md`.
