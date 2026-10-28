@@ -73,9 +73,9 @@ dotnet test tests/HrmSystem.Infrastructure.IntegrationTests  # needs Docker (Tes
 
 | Member | Role(s) | Responsibilities |
 | --- | --- | --- |
-| <LOGIN-1> | Product Owner / Developer | Product vision and backlog, feature priorities, validates completed work (demos), speaks for the product during evaluation |
-| <LOGIN-2> | Project Manager / Scrum Master / Developer | Planning and task tracking, deadlines, removes blockers, keeps the audit files in the repository current |
-| <LOGIN-3> | Technical Lead / Developer | Architecture oversight and code review, deployment and CI, release checks |
+| hassende | Product Owner / Developer | Product vision and backlog, feature priorities, validates completed work (demos), speaks for the product during evaluation |
+| mdarawsh | Project Manager / Scrum Master / Developer | Planning and task tracking, deadlines, removes blockers, keeps the audit files in the repository current |
+| aeleimat | Technical Lead / Developer | Architecture oversight and code review, deployment and CI, release checks |
 
 ## Project Management
 
@@ -125,15 +125,15 @@ Details: EF configurations under
 
 | Feature | Member(s) | Description |
 | --- | --- | --- |
-| Company signup + auth (JWT + refresh) | ahirzallah | Landing registration, login, token refresh, rate-limited auth endpoints |
-| Employees & departments CRUD | <LOGIN-?> | Paged/filtered directory, hire/edit/terminate, department management |
-| Attendance | <LOGIN-?> | Clock-in/out, per-employee history, worked-hours math |
-| Leave requests | <LOGIN-?> | Submit → approve/reject workflow, overlap guard, self-approval forbidden |
-| Analytics dashboard | <LOGIN-?> | Live KPIs + 4 chart types, date filters, CSV/PDF export |
-| Chat & announcements | <LOGIN-?> | 1:1 real-time DMs, unread badges; tenant-wide announcements with live bell |
-| Admin panel | <LOGIN-?> | User provisioning, role changes, suspend/reinstate, permission matrix |
-| Import/export | <LOGIN-?> | Content-negotiated exports; background CSV import with live progress |
-| Health & status + backups | <LOGIN-?> | Probes, public status page, Quartz backups + DR runbook |
+| Company signup + auth (JWT + refresh) | hassende | Landing registration, login, token refresh, rate-limited auth endpoints |
+| Employees & departments CRUD | drahwanj | Paged/filtered directory, hire/edit/terminate, department management |
+| Attendance | mdarawsh | Clock-in/out, per-employee history, worked-hours math |
+| Leave requests | mdarawsh| Submit → approve/reject workflow, overlap guard, self-approval forbidden |
+| Analytics dashboard | hassende| Live KPIs + 4 chart types, date filters, CSV/PDF export |
+| Chat & announcements | hassende | 1:1 real-time DMs, unread badges; tenant-wide announcements with live bell |
+| Admin panel | aeleimat | User provisioning, role changes, suspend/reinstate, permission matrix |
+| Import/export | aeleimat | Content-negotiated exports; background CSV import with live progress |
+| Health & status + backups | mdarawsh | Probes, public status page, Quartz backups + DR runbook |
 
 ## Modules
 
